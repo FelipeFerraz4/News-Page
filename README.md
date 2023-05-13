@@ -1,2 +1,1 @@
-# Guia de Templates
-- News Page
+# News Page 
