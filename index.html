@@ -7,6 +7,18 @@
     <link rel="shortcut icon" href="assests/Images/favicon_logo.ico" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="assests/css/style.css">
     <link rel="stylesheet" type="text/javascript" href="assests/js/script.js">
+    <script type="text/javascript">
+        window.onload = function(){
+            document.querySelector(".menu_mobile").addEventListener("click", function(){
+                if(document.querySelector(".menu nav ul").style.display == 'flex') {
+                    document.querySelector(".menu nav ul").style.display = 'none';
+                }
+                else {
+                    document.querySelector(".menu nav ul").style.display = 'flex'
+                }
+            });
+        };
+    </script>
 </head>
 <body>
     <header>
